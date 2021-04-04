@@ -1,0 +1,5 @@
+{
+    "HostMonitoringApi":"https://localhost:44301/api",
+    "StatApiUrl":"https://localhost:44301/api/stats",
+    "ExportApiUrl":"https://localhost:44301/api/reports"
+}

@@ -1,0 +1,74 @@
+<div >
+  <div class="container">
+    <main>
+      <div class="row g-3">
+        
+        <div class="col-md-7 col-lg-8">
+          <h4 class="mb-3">Export filtering criteria</h4>
+          <form class="needs-validation" novalidate>
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label for="network" class="form-label">Network</label>
+                <input type="text" class="form-control" id="network" placeholder="Ex. SICM"  required [formControl]="network">
+
+              </div>
+  
+              <div class="col-sm-6">
+                <label for="site" class="form-label">Site</label>
+                <input type="text" class="form-control" id="site" placeholder="Ex. FRA"  required [formControl]="site">
+
+              </div>
+  
+              <div class="col-12">
+                <label for="hostName" class="form-label">Host name</label>
+                <div class="input-group has-validation">
+                  <input type="text" class="form-control" id="hostName" placeholder="Ex. V002781" [formControl]="hostName" required>
+    
+                </div>
+              </div>
+  
+              <div class="col-12">
+                <label for="mail" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                <input type="email" class="form-control" id="mail" placeholder="Ex. you@example.com" [formControl]="mail">
+                <div class="invalid-feedback">
+                  Please enter a valid email address for shipping updates.
+                </div>
+              </div>
+  
+              <div class="col-12">
+                <label for="address" class="form-label">Entity<span class="text-muted">(Optional)</span></label>
+                <input type="text" class="form-control" id="address" placeholder="Ex. France" required [formControl]="entity">
+                <div class="invalid-feedback">
+                  Please enter your shipping address.
+                </div>
+              </div>
+            </div>  
+            <hr class="my-4">
+  
+            <h4 class="mb-3">Data view</h4>
+  
+            <div class="my-3">
+              <div class="form-check">
+                <input id="currentLicense" name="currentLicense" type="radio" class="form-check-input" checked (click)="setradio('current')" required>
+                <label class="form-check-label" for="credit">Current license</label>
+              </div>
+              <div class="form-check">
+                <input id="allLicense" name="currentLicense" type="radio" class="form-check-input" (click)="setradio('All')"  required>
+                <label class="form-check-label" for="debit">All Licenses</label>
+              </div>   
+            </div>
+  
+           
+            <hr class="my-4">
+  
+            <button class="w-100 btn btn-primary btn-lg" type="button" (click)="download()">Download</button>
+          </form>
+        </div>
+      </div>
+    </main>
+  
+    
+  </div>
+    
+  
+</div>

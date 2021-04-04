@@ -1,0 +1,20 @@
+  <body class="text-center">
+    
+<main class="form-signin">
+  <form>
+    <img class="mb-4" src="../assets/brand/logo.jpg" alt="" width="256" height="72">
+    <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+   
+    <label for="inputTgi" class="visually-hidden">TGI</label>
+    <input type="text" id="inputTgi" class="form-control" placeholder="TGI" required autofocus [formControl]="tgi">
+
+
+    <label for="inputPassword" class="visually-hidden">Password</label>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required [formControl]="password">
+    
+    <button class="w-100 btn btn-lg btn-primary" type="button" (click)="onLogin()" >Sign in</button>
+   
+  </form>
+</main>
+
+</body>

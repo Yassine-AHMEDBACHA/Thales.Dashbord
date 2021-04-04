@@ -1,0 +1,66 @@
+<form class="row row-cols-lg-auto g-3 align-items-center">
+    <div class="col-12">
+        <label for="hostName" class="form-label">Host name</label>
+        <input type="text" class="form-control" id="hostName" placeholder="Ex. V002781" [formControl]="hostName">
+    </div>
+  
+    <div class="col-12">
+        <label for="network" class="form-label">Network</label>
+        <input type="text" class="form-control" id="network" placeholder="Ex. SICM" value=""  [formControl]="network">
+    </div>
+  
+    <div class="col-12">
+        <label for="site" class="form-label">Site</label>
+        <input type="text" class="form-control" id="site" placeholder="Ex. FRA" value=""  [formControl]="site">
+    </div>
+
+    <div class="col-12">
+      <label for="entity" class="form-label">Entity</label>
+      <input type="text" class="form-control" id="entity" placeholder="Ex. France" value=""  [formControl]="entity">
+    </div>
+
+    <div class="col-12">
+      <label for="mail" class="form-label">E-mail</label>
+      <input type="text" class="form-control" id="mail" placeholder="Ex. France" value=""  [formControl]="mail">
+    </div>
+  
+    <div class="d-flex align-items-baseline">
+      <button type="button" class="btn btn-outline-success" (click)="onClick()">Search</button>
+    </div>
+  </form>
+<table class=" table table-striped table-hover table-sm">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Name</th>
+      <th scope="col">Network</th>
+      <th scope="col">Site</th>
+      <th scope="col">Enity</th>
+      <th scope="col">Status</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let host of hosts | async index as i">
+        <th scope="row">{{ i +1000 }}</th>
+        <td><ngb-highlight [result]="host.name"></ngb-highlight></td>
+        <td><ngb-highlight [result]="host.network"></ngb-highlight></td>
+        <td><ngb-highlight [result]="host.site"></ngb-highlight></td>
+        <td><ngb-highlight [result]="host.identity"></ngb-highlight></td>
+        <td><ngb-highlight [result]="host.status"></ngb-highlight></td>
+      </tr>
+    </tbody>
+</table>
+
+  <nav *ngIf="displayPages" aria-label="Page navigation example">
+    <ul class="pagination justify-content-center" *ngFor="let pg from pagcount">
+      <li class="page-item disabled">
+        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+  </nav>

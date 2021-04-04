@@ -1,0 +1,346 @@
+[   {
+  "name": "L534256",
+  "network": "RIC",
+  "identity": "France",
+  "site": "FRA",
+  "mail": "Tools.WE@thalesgroup.com",
+  "osBuild": "7601",
+  "osVersion": "Microsoft Windows NT 6.1.7601 Service Pack 1",
+  "is64BitOperatingSystem": false,
+  "subscriptionDate": "2020-02-19T14:32:48.53",
+  "tempId": null,
+  "productType": 0,
+  "licenses": null,
+  "processingStatus": [],
+  "status": null,
+  "id": 2
+},
+{
+  "name": "L570397",
+  "network": "DSI",
+  "identity": "France",
+  "site": "FRA",
+  "mail": "Tools.WE@thalesgroup.com",
+  "osBuild": "7601",
+  "osVersion": "Microsoft Windows NT 6.1.7601 Service Pack 1",
+  "is64BitOperatingSystem": false,
+  "subscriptionDate": "2020-02-19T16:01:34.107",
+  "tempId": null,
+  "productType": 0,
+  "licenses": null,
+  "processingStatus": [],
+  "status": null,
+  "id": 3
+},
+{
+  "name": "V003854",
+  "network": "RMC",
+  "identity": "France",
+  "site": "FRA",
+  "mail": "Tools.WE@thalesgroup.com",
+  "osBuild": "7601",
+  "osVersion": "Microsoft Windows NT 6.1.7601 Service Pack 1",
+  "is64BitOperatingSystem": false,
+  "subscriptionDate": "2020-02-19T16:15:39.153",
+  "tempId": null,
+  "productType": 0,
+  "licenses": null,
+  "processingStatus": [],
+  "status": null,
+  "id": 4
+},
+{
+  "name": "L538035",
+  "network": "",
+  "identity": "France",
+  "site": "FRA",
+  "mail": "Tools.WE@thalesgroup.com",
+  "osBuild": "7601",
+  "osVersion": "Microsoft Windows NT 6.1.7601 Service Pack 1",
+  "is64BitOperatingSystem": false,
+  "subscriptionDate": "2020-02-19T16:28:07.37",
+  "tempId": null,
+  "productType": 0,
+  "licenses": null,
+  "processingStatus": [],
+  "status": null,
+  "id": 5
+},
+{
+  "name": "W570419",
+  "network": "",
+  "identity": "France",
+  "site": "FRA",
+  "mail": "Tools.WE@thalesgroup.com",
+  "osBuild": "7601",
+  "osVersion": "Microsoft Windows NT 6.1.7601 Service Pack 1",
+  "is64BitOperatingSystem": false,
+  "subscriptionDate": "2020-02-20T09:24:47.593",
+  "tempId": null,
+  "productType": 0,
+  "licenses": null,
+  "processingStatus": [
+    {
+      "id": 1,
+      "message": "Controls failed:Missing Kbs : The following Kbs are missing : [KB4538483]",
+      "statusDate": "2020-02-20T09:25:01.837",
+      "hostId": 6
+    }
+  ],
+  "status": null,
+  "id": 6
+},
+{
+  "name": "W570419",
+  "network": "",
+  "identity": "France",
+  "site": "FRA",
+  "mail": "Tools.WE@thalesgroup.com",
+  "osBuild": "7601",
+  "osVersion": "Microsoft Windows NT 6.1.7601 Service Pack 1",
+  "is64BitOperatingSystem": false,
+  "subscriptionDate": "2020-02-20T12:39:27.477",
+  "tempId": null,
+  "productType": 0,
+  "licenses": null,
+  "processingStatus": [],
+  "status": null,
+  "id": 7
+},
+{
+  "name": "V239317-A-W732",
+  "network": "",
+  "identity": "France",
+  "site": "FRA",
+  "mail": "Tools.WE@thalesgroup.com",
+  "osBuild": "7601",
+  "osVersion": "Microsoft Windows NT 6.1.7601 Service Pack 1",
+  "is64BitOperatingSystem": false,
+  "subscriptionDate": "2020-02-21T12:00:15.533",
+  "tempId": null,
+  "productType": 0,
+  "licenses": null,
+  "processingStatus": [
+    {
+      "id": 2,
+      "message": "The installation of the product key [RJQBC-33HH4-TB6M6-X6F26-7P7W4] has failed",
+      "statusDate": "2020-02-21T14:40:11.597",
+      "hostId": 8
+    }
+  ],
+  "status": null,
+  "id": 8
+},
+{
+  "name": "L546509",
+  "network": "",
+  "identity": "France",
+  "site": "FRA",
+  "mail": "Tools.WE@thalesgroup.com",
+  "osBuild": "7601",
+  "osVersion": "Microsoft Windows NT 6.1.7601 Service Pack 1",
+  "is64BitOperatingSystem": false,
+  "subscriptionDate": "2020-02-21T14:46:03.823",
+  "tempId": null,
+  "productType": 0,
+  "licenses": null,
+  "processingStatus": [],
+  "status": null,
+  "id": 12
+},
+{
+  "name": "V239317-A-W732",
+  "network": "",
+  "identity": "France",
+  "site": "FRA",
+  "mail": "Tools.WE@thalesgroup.com",
+  "osBuild": "7601",
+  "osVersion": "Microsoft Windows NT 6.1.7601 Service Pack 1",
+  "is64BitOperatingSystem": false,
+  "subscriptionDate": "2020-02-21T16:01:32.82",
+  "tempId": null,
+  "productType": 0,
+  "licenses": null,
+  "processingStatus": [
+    {
+      "id": 42,
+      "message": "Controls failed:Missing Kbs : The following Kbs are missing : [KB4536952, KB4538483]",
+      "statusDate": "2020-02-21T16:01:54.597",
+      "hostId": 13
+    }
+  ],
+  "status": null,
+  "id": 13
+},
+{
+  "name": "V026068A",
+  "network": "",
+  "identity": "France",
+  "site": "FRA",
+  "mail": "Tools.WE@thalesgroup.com",
+  "osBuild": "7601",
+  "osVersion": "Microsoft Windows NT 6.1.7601 Service Pack 1",
+  "is64BitOperatingSystem": false,
+  "subscriptionDate": "2020-02-24T13:27:21.3",
+  "tempId": null,
+  "productType": 0,
+  "licenses": null,
+  "processingStatus": [
+    {
+      "id": 123,
+      "message": "Controls failed:Missing Kbs : The following Kbs are missing : [KB4536952, KB4538483]",
+      "statusDate": "2020-02-24T13:28:02.747",
+      "hostId": 15
+    }
+  ],
+  "status": null,
+  "id": 15
+},
+{
+  "name": "L577766",
+  "network": "",
+  "identity": "France",
+  "site": "FRA",
+  "mail": "Tools.WE@thalesgroup.com",
+  "osBuild": "7601",
+  "osVersion": "Microsoft Windows NT 6.1.7601 Service Pack 1",
+  "is64BitOperatingSystem": false,
+  "subscriptionDate": "2020-02-25T08:30:40.04",
+  "tempId": null,
+  "productType": 0,
+  "licenses": null,
+  "processingStatus": [],
+  "status": null,
+  "id": 16
+},
+{
+  "name": "L529641",
+  "network": "",
+  "identity": "France",
+  "site": "FRA",
+  "mail": "Tools.WE@thalesgroup.com",
+  "osBuild": "7601",
+  "osVersion": "Microsoft Windows NT 6.1.7601 Service Pack 1",
+  "is64BitOperatingSystem": false,
+  "subscriptionDate": "2020-02-25T08:30:53.667",
+  "tempId": null,
+  "productType": 0,
+  "licenses": null,
+  "processingStatus": [],
+  "status": null,
+  "id": 17
+},
+{
+  "name": "L518283",
+  "network": "",
+  "identity": "France",
+  "site": "FRA",
+  "mail": "Tools.WE@thalesgroup.com",
+  "osBuild": "7601",
+  "osVersion": "Microsoft Windows NT 6.1.7601 Service Pack 1",
+  "is64BitOperatingSystem": false,
+  "subscriptionDate": "2020-02-25T08:53:52.023",
+  "tempId": null,
+  "productType": 0,
+  "licenses": null,
+  "processingStatus": [
+    {
+      "id": 3,
+      "message": "Controls failed:Missing Kbs : The following Kbs are missing : [KB4538483]",
+      "statusDate": "2020-02-25T08:54:22.79",
+      "hostId": 18
+    }
+  ],
+  "status": null,
+  "id": 18
+},
+{
+  "name": "L540911",
+  "network": "",
+  "identity": "France",
+  "site": "FRA",
+  "mail": "Tools.WE@thalesgroup.com",
+  "osBuild": "7601",
+  "osVersion": "Microsoft Windows NT 6.1.7601 Service Pack 1",
+  "is64BitOperatingSystem": false,
+  "subscriptionDate": "2020-02-25T09:01:43.75",
+  "tempId": null,
+  "productType": 0,
+  "licenses": null,
+  "processingStatus": [
+    {
+      "id": 43,
+      "message": "Controls failed:Missing Kbs : The following Kbs are missing : [KB4536952, KB4538483]",
+      "statusDate": "2020-02-25T09:03:35.697",
+      "hostId": 19
+    }
+  ],
+  "status": null,
+  "id": 19
+},
+{
+  "name": "V003000",
+  "network": "",
+  "identity": "France",
+  "site": "FRA",
+  "mail": "Tools.WE@thalesgroup.com",
+  "osBuild": "7601",
+  "osVersion": "Microsoft Windows NT 6.1.7601 Service Pack 1",
+  "is64BitOperatingSystem": false,
+  "subscriptionDate": "2020-02-25T11:23:05.443",
+  "tempId": null,
+  "productType": 0,
+  "licenses": null,
+  "processingStatus": [
+    {
+      "id": 4,
+      "message": "Controls failed:Missing Kbs : The following Kbs are missing : [KB4538483]",
+      "statusDate": "2020-02-25T11:23:18.737",
+      "hostId": 20
+    }
+  ],
+  "status": null,
+  "id": 20
+},
+{
+  "name": "V026068A",
+  "network": "",
+  "identity": "France",
+  "site": "FRA",
+  "mail": "Tools.WE@thalesgroup.com",
+  "osBuild": "7601",
+  "osVersion": "Microsoft Windows NT 6.1.7601 Service Pack 1",
+  "is64BitOperatingSystem": false,
+  "subscriptionDate": "2020-02-26T08:32:00.07",
+  "tempId": null,
+  "productType": 0,
+  "licenses": null,
+  "processingStatus": [
+    {
+      "id": 82,
+      "message": "Controls failed:Missing Kbs : The following Kbs are missing : [KB4538483]",
+      "statusDate": "2020-02-26T08:32:28.183",
+      "hostId": 23
+    }
+  ],
+  "status": null,
+  "id": 23
+},
+{
+  "name": "V003000",
+  "network": "",
+  "identity": "France",
+  "site": "FRA",
+  "mail": "Tools.WE@thalesgroup.com",
+  "osBuild": "7601",
+  "osVersion": "Microsoft Windows NT 6.1.7601 Service Pack 1",
+  "is64BitOperatingSystem": false,
+  "subscriptionDate": "2020-02-26T11:44:47.943",
+  "tempId": null,
+  "productType": 0,
+  "licenses": null,
+  "processingStatus": [],
+  "status": null,
+  "id": 24
+}
+]

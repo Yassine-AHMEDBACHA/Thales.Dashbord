@@ -1,0 +1,28 @@
+<nav *ngIf="authentificated" class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link" href="statistic">Statistic</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="monitoring" tabindex="-1" aria-disabled="true">Monitoring</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="export" tabindex="-1" aria-disabled="true">Export</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <button class="btn btn-outline-secondary" type="button" (click)="onLogout()">Log out</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<main class="container">
+  <div class=" p-4 rounded">
+    <router-outlet></router-outlet> 
+  </div>
+</main>
+
+
